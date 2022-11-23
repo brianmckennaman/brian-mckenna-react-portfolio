@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import aboutMe from './about'
 
-function Apps() {
+function resume() {
 
 }
 
-export default Apps
+export default resume
