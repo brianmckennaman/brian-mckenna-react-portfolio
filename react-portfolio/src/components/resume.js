@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
-import aboutMe from './about'
 
 function resume() {
-
+    return (
+        <img></img>
+    )
 }
 
 export default resume
