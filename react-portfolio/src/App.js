@@ -6,6 +6,7 @@ import Footer from "./components/footer"
 import Header from "./components/header"
 import Resume from "./components/resume"
 import Contact from "./components/contact"
+import Apps from "./components/apps"
 function App() {
 
   // var arr = [
@@ -30,7 +31,6 @@ function App() {
       {/* {arr.map(item => {
         return <AboutMe mops={item.name} />
       })} */}
-    <AboutMe />
     <Footer />
     </div>
   );
