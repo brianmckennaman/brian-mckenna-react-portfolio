@@ -1,9 +1,9 @@
 function Navbar(props) {
 
     var style = {
-        navbarMain: { backgroundColor: "blue", color: "black",},
+        navbarMain: { backgroundColor: "lightBlue", color: "black",},
         listItem: { display: "inline"},
-        navButtons: {backgroundColor: "blue", color: "red", width: "20vw", marginLeft: "10px", marginRight: "10px"}
+        navButtons: {backgroundColor: "lightBlue", color: "black", width: "23vw", marginLeft: "5px", marginRight: "5px", border: "none"}
     }
     return (
 

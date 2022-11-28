@@ -8,6 +8,7 @@ function Apps() {
     return(
         <section style={styles.appsSection}>
             <div>Horiseon Mockup Homepage</div>
+            <img  alt=''></img>
             <div style={styles.linkText}>
             <p>
                 <a href='https://github.com/brianmckennaman/Horiseon-homepage-assignment'>Github</a>
@@ -16,6 +17,7 @@ function Apps() {
                 <a href='https://brianmckennaman.github.io/Horiseon-homepage-assignment/'>Website</a>
             </p>
             </div>
+            <img src='../react-portfolio/assets/Screenshot(4).png' alt='password generator screenshot'></img>
             <div>Password Generator App</div>
             <p>
                 <a href='https://github.com/brianmckennaman/password-generator-app'>Github</a>
