@@ -3,11 +3,9 @@ function Navbar(props) {
 
     var style = {
         navbarMain: {
-            backgroundColor: "lightBlue",
-            color: "black",
-        },
+            backgroundColor: "lightBlue", color: "black", height: "3vw"},
         listItem: { display: "inline" },
-        navButtons: { textDecoration: "none", backgroundColor: "lightBlue", color: "black", width: "22vw", marginLeft: "5px", marginRight: "5px", border: "none" }
+        navButtons: { textDecoration: "none", backgroundColor: "lightBlue", color: "black", width: "22vw", height: "3vw", marginLeft: "5px", marginRight: "5px", border: "none" }
     }
     return (
 
@@ -19,13 +17,16 @@ function Navbar(props) {
                         <button style={style.navButtons}>About Me</button></NavLink>
                 </li>
                 <li style={style.listItem}>
-                    <NavLink style={style.navButtons} to='/apps'>Apps</NavLink>
+                    <NavLink to='/apps'>
+                        <button style={style.navButtons}>Apps</button></NavLink>
                 </li>
                 <li style={style.listItem}>
-                    <NavLink style={style.navButtons} to='/contact'>Contact</NavLink>
+                    <NavLink to='/contact'>
+                        <button style={style.navButtons}>Contact</button></NavLink>
                 </li>
                 <li style={style.listItem}>
-                    <NavLink style={style.navButtons} to='/resume'>Resume</NavLink>
+                    <NavLink to='/resume'>
+                        <button style={style.navButtons}>Resume</button></NavLink>
                 </li>
             </ul>
         </nav>
