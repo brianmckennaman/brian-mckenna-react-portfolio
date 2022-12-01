@@ -6,7 +6,7 @@ function Footer() {
     }
     return (
         <footer style={style.footer}>
-            <p>Check out my other links!
+            <h3>Check out my other links!
             <div>
                 <p style={style.footerText}>
                     <a href="https://github.com/brianmckennaman">Github</a>
@@ -18,7 +18,7 @@ function Footer() {
                     <a href="https://twitter.com/OverlordHype">Twitter</a>
                 </p>
             </div>
-            </p>
+            </h3>
         </footer>
     )
 }
