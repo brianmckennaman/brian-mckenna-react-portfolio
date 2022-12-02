@@ -14,12 +14,14 @@ function Contact() {
 
     const handleInputChange = (e) => {
         const { target } = e;
-        const inputType = target.name;
+        const inputType = target.type;
         const inputValue = target.value;
-        console.log(target, target.value)
+        console.log(target, target.value, inputType)
         console.log(validateEmail(target.value))
+        console.log(inputType === 'email', validateEmail(target.value))
         if (inputType === 'email' && validateEmail(target.value)) {
             setEmail(inputValue);
+            console.log(email)
         }
     };
 
@@ -34,8 +36,8 @@ function Contact() {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-
-        if (!validateEmail(e.taget.value)) {
+        console.log(email, !validateEmail(email))
+        if (!validateEmail(email)) {
             setErrorMessage('Please enter a valid email address');
             return;
         }
@@ -50,7 +52,7 @@ function Contact() {
             <h2>Enter your name</h2>
             <input style={style.nameEmailInput} type={"text"} placeholder="Enter your name" onChange={handleInputChange}></input>
             <h2>Enter your email</h2>
-            <input style={style.nameEmailInput} type={"email"} onChange={handleInputChange} onBlur={handleBlur} placeholder="Enter your email"></input>
+            <input style={style.nameEmailInput} type={"email"} onChange={handleInputChange} placeholder="Enter your email" value={email}></input>
             <p>{errorMessage}</p>
             <h2>Leave a comment or message</h2>
             <input style={style.messageInput} type={"text"} placeholder="Leave a message" onChange={handleInputChange}></input>
