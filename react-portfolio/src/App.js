@@ -10,9 +10,10 @@ import Contact from "./pages/contact"
 import Apps from "./pages/apps"
 function App() {
 
+  var styles = { background: { background: "#4fbfff"}}
   return (
     <Router>
-      <div className="App">
+      <div style={styles.background} className="App">
         <Header />
         <Navbar />
         <Routes>

@@ -1,8 +1,8 @@
 function Footer() {
 
     var style = {
-        footer: { backgroundColor: "lightBlue", color: "black", display: "flex", justifyContent: "center", height: "5vw"},
-        footerText: { font: "Sans-Serif", display: "inline", marginLeft: "10px", marginRight: "10px" },
+        footer: { backgroundColor: "lightBlue", color: "black", display: "flex", justifyContent: "center", height: "7vw"},
+        footerText: { font: "Sans-Serif", display: "inline", marginLeft: "2vw", marginRight: "2vw", color: "black" },
     }
     return (
         <footer style={style.footer}>
