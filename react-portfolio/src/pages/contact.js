@@ -52,7 +52,7 @@ function Contact() {
             <h2>Enter your name</h2>
             <input style={style.nameEmailInput} type={"text"} placeholder="Enter your name" onChange={handleInputChange}></input>
             <h2>Enter your email</h2>
-            <input style={style.nameEmailInput} type={"email"} onChange={handleInputChange} placeholder="Enter your email" value={email}></input>
+            <input style={style.nameEmailInput} type={"text"} onChange={handleInputChange} placeholder="Enter your email" value={email}></input>
             <p>{errorMessage}</p>
             <h2>Leave a comment or message</h2>
             <input style={style.messageInput} type={"text"} placeholder="Leave a message" onChange={handleInputChange}></input>
