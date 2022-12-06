@@ -13,7 +13,7 @@ function Navbar(props) {
     return (
 
         <nav style={style.navbarMain}>
-            <ul className="columns-4">
+            <ul>
                 <li style={style.listItem}>
                     <NavLink to='/' style={({ isActive }) => isActive ? { backgroundColor: "#00bac4" } : { backgroundColor: "lightBlue" } }>About Me
                     </NavLink>

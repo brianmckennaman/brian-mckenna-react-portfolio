@@ -2,7 +2,7 @@ import picture from "../assets/mypicture.jpg"
 function AboutMe(props) {
     var styles= {
         container: { display: "flex", width: "80vw", marginBottom: "1vw", background: "lightBlue", color: "black", justifyContent: "center", borderRadius: "10px"},
-        image: { height: "30vw", width: "50vw", borderRadius: "20px"}
+        image: { height: "30vw", width: "50vw", borderRadius: "20px", border: "solid"}
     }
 return (
     
