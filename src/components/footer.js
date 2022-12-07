@@ -7,7 +7,7 @@ function Footer() {
     return (
         <footer style={style.footer}>
             <h2>Check out my other links!
-            <div >
+            <div>
                 <p style={style.footerText}>
                     <a href="https://github.com/brianmckennaman">Github</a>
                 </p>

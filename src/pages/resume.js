@@ -1,30 +1,33 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import resumePdf from '../assets/resume.pdf'
 
 function Resume() {
-    var styles= {
-        downloadButton: { background: "blue", color: "white", height: "3vw", width: "10vw" },
-        skillList: { fontSize: "2vw"}
+    var styles = {
+        body: { display: "flex", flexWrap: "wrap", justifyContent: "center" },
+        downloadButton: { background: "blue", color: "white", height: "3vw", width: "10vw", fontSize: "2vw" },
+        listContainer: { background: "lightBlue"},
+        skillList: { fontSize: "2vw" }
     }
 
     return (
-        <div>
-        <h1>Checkout my resume!</h1>
-        <button style={styles.downloadButton}>
-            <a href={resumePdf} download={resumePdf}></a>Download</button>
-        <h1>Coding skills</h1>
-        <div style={styles.skillList}>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
-        <p>Node.js</p>
-        <p>Express</p>
-        <p>MySQL</p>
-        <p>MongoDB</p>
-        <p>React</p>
-        <p>GraphQL</p>
-        </div>
-
+        <div style={styles.body}>
+            <h1>Checkout my resume!
+                <button style={styles.downloadButton}>
+                    <a href={resumePdf} download={resumePdf}></a>Download</button>
+                <h1 style={styles.listContainer}>Coding skills
+                <ul style={styles.skillList}>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>React</li>
+                    <li>GraphQL</li>
+                </ul>
+                </h1>
+            </h1>
         </div>
     )
 }

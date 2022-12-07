@@ -2,11 +2,12 @@ import { useState } from 'react'
 import { validateEmail } from '../utils/helpers'
 
 function Contact() {
-    var style={
-        contactForms: { display: "flex" },
-        inputForms: { justifyContent: "flexEnd"},
-        nameEmailInput: { width: "50vw"},
-        messageInput: { height: "20vw", width: "50vw" }
+    var styles={
+        body: { display: "flex", flexWrap: "wrap", justifyContent: "center" },
+        nameEmailInput: { width: "50vw", height: "5vw", fontSize: "3vw"},
+        messageInput: { height: "20vw", width: "50vw", fontSize: "3vw" },
+        errMessage: { color: "red"},
+        sendButton: { height: "5vw", width: "8vw", fontSize: "3vw"}
     }
 
     const [email, setEmail] = useState('');
@@ -39,27 +40,29 @@ function Contact() {
         e.preventDefault();
         console.log(email, !validateEmail(email))
         if (!validateEmail(email)) {
-            setErrorMessage('Please enter a valid email address');
+            setErrorMessage('Please enter a valid email address!');
             return;
         }
         window.location.reload();
     }
 
  return (
-    <div>
-    <h1>Send me a message!</h1>
-    <section style={style.contactForms}>
-        <form style={style.inputForms}>
+    <div style={styles.body}>
+    <h1>Send me a message!
+    <section>
+        <form>
             <h2>Enter your name</h2>
-            <input style={style.nameEmailInput} type={"text"} placeholder="Enter your name" onChange={handleInputChange}></input>
+            <textarea style={styles.nameEmailInput} type={"text"} placeholder="Enter your name" onChange={handleInputChange}></textarea>
             <h2>Enter your email</h2>
-            <input style={style.nameEmailInput} type={"text"} onChange={handleInputChange} placeholder="Enter your email" name='email'></input>
-            <p>{errorMessage}</p>
+            <textarea style={styles.nameEmailInput} type={"text"} onChange={handleInputChange} placeholder="Enter your email" name='email'></textarea>
+            <p style={styles.errMessage}>{errorMessage}</p>
             <h2>Leave a comment or message</h2>
-            <textarea style={style.messageInput} type={"text"} placeholder="Leave a message" onChange={handleInputChange}></textarea>
-            <button type='button' onClick={handleFormSubmit}>Send</button>
+            <textarea style={styles.messageInput} type={"text"} placeholder="Leave a message" onChange={handleInputChange}></textarea>
+            <br></br>
+            <button style={styles.sendButton} type='button' onClick={handleFormSubmit}>Send</button>
         </form>
     </section>
+    </h1>
     <br></br>
     </div>
  )
