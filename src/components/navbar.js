@@ -15,7 +15,7 @@ function Navbar(props) {
         <nav style={style.navbarMain}>
             <ul>
                 <li style={style.listItem}>
-                    <NavLink to='/' style={({ isActive }) => isActive ? { backgroundColor: "#00bac4" } : { backgroundColor: "lightBlue" } }>About Me
+                    <NavLink to='/brian-mckenna-react-portfolio' style={({ isActive }) => isActive ? { backgroundColor: "#00bac4" } : { backgroundColor: "lightBlue" } }>About Me
                     </NavLink>
                 </li>
                 <li style={style.listItem}>

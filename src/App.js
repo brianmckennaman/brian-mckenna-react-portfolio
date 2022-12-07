@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Navbar />
         <Routes>
-          <Route exact path='/' element={<AboutMe />}>
+          <Route exact path='/brian-mckenna-react-portfolio' element={<AboutMe />}>
           </Route>
           <Route exact path='/apps' element={<Apps />}>
           </Route>
