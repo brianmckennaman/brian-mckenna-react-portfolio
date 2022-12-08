@@ -9,7 +9,7 @@ import picture6 from "../assets/texteditor.png"
 function Apps() {
     var styles = {
         appsSection: { display: "flex", justifyContent: "spaceAround", justifyItems: "space-between", flexWrap: "wrap", marginLeft: "2vw" },
-        titleText: { fontSize: "5vw", fontFamily: "Arial", background: "lightBlue", width: "100vw" },
+        titleText: { fontSize: "5vw", fontFamily: "Arial", background: "lightBlue", width: "100vw", padding: "1vw", borderRadius: "5px" },
         linkText: { display: "inline", color: "black", fontSize: "3vw", textDecoration: "none" },
         image: { height: "40vw", width: "60vw", justifyContent: "center", borderRadius: "20px", border: "solid" },
         imageContainer: { border: "black", width: "100vw" }

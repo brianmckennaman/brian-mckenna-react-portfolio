@@ -17,16 +17,17 @@ function App() {
         <Header />
         <Navbar />
         <Routes>
-          <Route exact path='/brian-mckenna-react-portfolio' element={<AboutMe />}>
+          <Route exact path='/' element={<AboutMe />}>
           </Route>
           <Route exact path='/apps' element={<Apps />}>
           </Route>
           <Route exact path='/contact' element={<Contact />}>
           </Route>
           <Route exact path='/resume' element={<Resume />}>
+          </Route>
           <Route exact path='*' element={<AboutMe />}>
           </Route>
-        </Route>
+        
         </Routes>
         <Footer />
       </div>
