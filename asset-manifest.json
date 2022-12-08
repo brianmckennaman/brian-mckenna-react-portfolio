@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/brian-mckenna-react-portfolio/static/css/main.cdb2cedc.chunk.css",
-    "main.js": "/brian-mckenna-react-portfolio/static/js/main.2f4a9b5b.chunk.js",
-    "main.js.map": "/brian-mckenna-react-portfolio/static/js/main.2f4a9b5b.chunk.js.map",
+    "main.js": "/brian-mckenna-react-portfolio/static/js/main.3c952c3c.chunk.js",
+    "main.js.map": "/brian-mckenna-react-portfolio/static/js/main.3c952c3c.chunk.js.map",
     "runtime-main.js": "/brian-mckenna-react-portfolio/static/js/runtime-main.3e7f1a80.js",
     "runtime-main.js.map": "/brian-mckenna-react-portfolio/static/js/runtime-main.3e7f1a80.js.map",
     "static/js/2.d3186457.chunk.js": "/brian-mckenna-react-portfolio/static/js/2.d3186457.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.3e7f1a80.js",
     "static/js/2.d3186457.chunk.js",
     "static/css/main.cdb2cedc.chunk.css",
-    "static/js/main.2f4a9b5b.chunk.js"
+    "static/js/main.3c952c3c.chunk.js"
   ]
 }
