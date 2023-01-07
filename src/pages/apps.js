@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import picture1 from "../assets/horiseon.png"
+import picture1 from "../assets/toughdecisions.png"
 import picture2 from "../assets/passwordgenerator.png"
 import picture3 from "../assets/scheduler.png"
 import picture4 from "../assets/notetaker.png"
@@ -16,12 +16,12 @@ function Apps() {
     }
     return (
         <section style={styles.appsSection}>
-            <h2 style={styles.titleText}>Horiseon Mockup Homepage</h2>
-            <img src={picture1} alt='horiseon homepage' style={styles.image}></img>
+            <h2 style={styles.titleText}>Tough Decisions Game</h2>
+            <img src={picture1} alt='tough decisions' style={styles.image}></img>
             <div>
-                <button><a href='https://github.com/brianmckennaman/Horiseon-homepage-assignment' style={styles.linkText}>Link to Github repo</a></button>
+                <button><a href='https://github.com/garrettj94/ToughDecisions' style={styles.linkText}>Link to Github repo</a></button>
                 <br></br>
-                <button><a href='https://brianmckennaman.github.io/Horiseon-homepage-assignment/' style={styles.linkText}>Link to deployed website</a></button>
+                <button><a href='https://toughdecisions.herokuapp.com/' style={styles.linkText}>Link to deployed website</a></button>
             </div>
             <h2 style={styles.titleText}>Password Generator App</h2>
             <img src={picture2} alt='password generator screenshot' style={styles.image}></img>
@@ -48,9 +48,9 @@ function Apps() {
             <h2 style={styles.titleText}>Employee Management System</h2>
             <img src={picture5} alt='employee management system' style={styles.image}></img>
             <p>
-                <button><a href='https://github.com/brianmckennaman/Challenge-Assignment-1' style={styles.linkText}>Link to Github Repo</a></button>
+                <button><a href='https://github.com/garrettj94/DreamTeamManagement' style={styles.linkText}>Link to Github Repo</a></button>
                 <br></br>
-                <button><a href='https://brianmckennaman.github.io/Challenge-Assignment-1/' style={styles.linkText}>Link to deployed website</a></button>
+                <button><a href='https://sheltered-atoll-76141.herokuapp.com/' style={styles.linkText}>Link to deployed website</a></button>
             </p>
             <h2 style={styles.titleText}>Text Editor App</h2>
             <img src={picture6} alt='note taker' style={styles.image}></img>
