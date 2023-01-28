@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import resumePdf from '../assets/resume.pdf'
 
 function Resume() {
     var styles = {
         body: { display: "flex", flexWrap: "wrap", justifyContent: "center" },
-        downloadButton: { background: "blue", color: "white", height: "3vw", width: "10vw", fontSize: "2vw", borderRadius: "10px", cursor: "pointer" },
+        downloadButton: { background: "blue", color: "white", height: "3vw", width: "11vw", fontSize: "2vw", borderRadius: "10px", cursor: "pointer" },
+        skillHeader: { fontSize: "5vw", justifyContent: "center"},
         listContainer: { background: "lightBlue", borderRadius: "10px" },
         skillList: { fontSize: "2vw" }
     }
@@ -15,7 +16,7 @@ function Resume() {
                 <a href={resumePdf} download={resumePdf}>
                     <button style={styles.downloadButton}>Download</button>
                 </a>
-                <h1 style={styles.listContainer}>Coding skills
+                <h2 style={styles.listContainer}>Coding skills
                     <ul style={styles.skillList}>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -27,7 +28,7 @@ function Resume() {
                         <li>React</li>
                         <li>GraphQL</li>
                     </ul>
-                </h1>
+                </h2>
             </h1>
         </div>
     )

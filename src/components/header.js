@@ -1,6 +1,6 @@
 function Header() {
     var style={
-        headerMain: { backgroundColor: "lightBlue", display: "flex", justifyContent: "center", fontFamily: "Papyrus", fontWeight: "bold", fontSize: "4vw"}
+        headerMain: { backgroundColor: "lightBlue", display: "flex", justifyContent: "center", fontFamily: "Papyrus", fontWeight: "bold", fontSize: "3vw"}
     }
     return (
         <header style={style.headerMain}>

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/brian-mckenna-react-portfolio/static/css/main.cdb2cedc.chunk.css",
-    "main.js": "/brian-mckenna-react-portfolio/static/js/main.3c952c3c.chunk.js",
-    "main.js.map": "/brian-mckenna-react-portfolio/static/js/main.3c952c3c.chunk.js.map",
+    "main.js": "/brian-mckenna-react-portfolio/static/js/main.6e41022b.chunk.js",
+    "main.js.map": "/brian-mckenna-react-portfolio/static/js/main.6e41022b.chunk.js.map",
     "runtime-main.js": "/brian-mckenna-react-portfolio/static/js/runtime-main.3e7f1a80.js",
     "runtime-main.js.map": "/brian-mckenna-react-portfolio/static/js/runtime-main.3e7f1a80.js.map",
     "static/js/2.d3186457.chunk.js": "/brian-mckenna-react-portfolio/static/js/2.d3186457.chunk.js",
@@ -12,19 +12,19 @@
     "index.html": "/brian-mckenna-react-portfolio/index.html",
     "static/css/main.cdb2cedc.chunk.css.map": "/brian-mckenna-react-portfolio/static/css/main.cdb2cedc.chunk.css.map",
     "static/js/2.d3186457.chunk.js.LICENSE.txt": "/brian-mckenna-react-portfolio/static/js/2.d3186457.chunk.js.LICENSE.txt",
-    "static/media/horiseon.a36c1a4e.png": "/brian-mckenna-react-portfolio/static/media/horiseon.a36c1a4e.png",
     "static/media/mypicture.81235e0b.jpg": "/brian-mckenna-react-portfolio/static/media/mypicture.81235e0b.jpg",
     "static/media/notetaker.e3ebfe02.png": "/brian-mckenna-react-portfolio/static/media/notetaker.e3ebfe02.png",
     "static/media/passwordgenerator.3b11918f.png": "/brian-mckenna-react-portfolio/static/media/passwordgenerator.3b11918f.png",
     "static/media/project2.9ef02d1b.png": "/brian-mckenna-react-portfolio/static/media/project2.9ef02d1b.png",
     "static/media/resume.8d3f26a3.pdf": "/brian-mckenna-react-portfolio/static/media/resume.8d3f26a3.pdf",
     "static/media/scheduler.1dbd37e2.png": "/brian-mckenna-react-portfolio/static/media/scheduler.1dbd37e2.png",
-    "static/media/texteditor.8d08e50e.png": "/brian-mckenna-react-portfolio/static/media/texteditor.8d08e50e.png"
+    "static/media/texteditor.8d08e50e.png": "/brian-mckenna-react-portfolio/static/media/texteditor.8d08e50e.png",
+    "static/media/toughdecisions.3fcc4dc1.png": "/brian-mckenna-react-portfolio/static/media/toughdecisions.3fcc4dc1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3e7f1a80.js",
     "static/js/2.d3186457.chunk.js",
     "static/css/main.cdb2cedc.chunk.css",
-    "static/js/main.3c952c3c.chunk.js"
+    "static/js/main.6e41022b.chunk.js"
   ]
 }
