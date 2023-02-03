@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom"
-function Navbar(props) {
+function Navbar() {
 
     var active = ({ isActive }) => isActive ? { backgroundColor: "red" } : { backgroundColor: "lightBlue" }
+    // ({ isActive }) => isActive ? { backgroundColor: "#00bac4" } : { backgroundColor: "lightBlue" }
 
     var style = {
         navbarMain: { backgroundColor: "lightBlue", color: "black", height: "4vw", position: "sticky", marginBottom: "2vw" },

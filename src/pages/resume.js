@@ -6,7 +6,7 @@ function Resume() {
         body: { display: "flex", flexWrap: "wrap", justifyContent: "center" },
         downloadButton: { background: "blue", color: "white", height: "3vw", width: "11vw", fontSize: "2vw", borderRadius: "10px", cursor: "pointer" },
         skillHeader: { fontSize: "5vw", justifyContent: "center"},
-        listContainer: { background: "lightBlue", borderRadius: "10px" },
+        listContainer: { background: "lightBlue", borderRadius: "10px", padding: "1vw" },
         skillList: { fontSize: "2vw" }
     }
 
