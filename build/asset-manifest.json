@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/brian-mckenna-react-portfolio/static/css/main.cdb2cedc.chunk.css",
-    "main.js": "/brian-mckenna-react-portfolio/static/js/main.6e41022b.chunk.js",
-    "main.js.map": "/brian-mckenna-react-portfolio/static/js/main.6e41022b.chunk.js.map",
+    "main.js": "/brian-mckenna-react-portfolio/static/js/main.24dd40d8.chunk.js",
+    "main.js.map": "/brian-mckenna-react-portfolio/static/js/main.24dd40d8.chunk.js.map",
     "runtime-main.js": "/brian-mckenna-react-portfolio/static/js/runtime-main.3e7f1a80.js",
     "runtime-main.js.map": "/brian-mckenna-react-portfolio/static/js/runtime-main.3e7f1a80.js.map",
-    "static/js/2.d3186457.chunk.js": "/brian-mckenna-react-portfolio/static/js/2.d3186457.chunk.js",
-    "static/js/2.d3186457.chunk.js.map": "/brian-mckenna-react-portfolio/static/js/2.d3186457.chunk.js.map",
+    "static/js/2.9d7fe2f4.chunk.js": "/brian-mckenna-react-portfolio/static/js/2.9d7fe2f4.chunk.js",
+    "static/js/2.9d7fe2f4.chunk.js.map": "/brian-mckenna-react-portfolio/static/js/2.9d7fe2f4.chunk.js.map",
     "static/js/3.fa164891.chunk.js": "/brian-mckenna-react-portfolio/static/js/3.fa164891.chunk.js",
     "static/js/3.fa164891.chunk.js.map": "/brian-mckenna-react-portfolio/static/js/3.fa164891.chunk.js.map",
     "index.html": "/brian-mckenna-react-portfolio/index.html",
     "static/css/main.cdb2cedc.chunk.css.map": "/brian-mckenna-react-portfolio/static/css/main.cdb2cedc.chunk.css.map",
-    "static/js/2.d3186457.chunk.js.LICENSE.txt": "/brian-mckenna-react-portfolio/static/js/2.d3186457.chunk.js.LICENSE.txt",
+    "static/js/2.9d7fe2f4.chunk.js.LICENSE.txt": "/brian-mckenna-react-portfolio/static/js/2.9d7fe2f4.chunk.js.LICENSE.txt",
     "static/media/mypicture.81235e0b.jpg": "/brian-mckenna-react-portfolio/static/media/mypicture.81235e0b.jpg",
     "static/media/notetaker.e3ebfe02.png": "/brian-mckenna-react-portfolio/static/media/notetaker.e3ebfe02.png",
     "static/media/passwordgenerator.3b11918f.png": "/brian-mckenna-react-portfolio/static/media/passwordgenerator.3b11918f.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3e7f1a80.js",
-    "static/js/2.d3186457.chunk.js",
+    "static/js/2.9d7fe2f4.chunk.js",
     "static/css/main.cdb2cedc.chunk.css",
-    "static/js/main.6e41022b.chunk.js"
+    "static/js/main.24dd40d8.chunk.js"
   ]
 }
