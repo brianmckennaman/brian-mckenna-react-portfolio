@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/brian-mckenna-react-portfolio/static/css/main.cdb2cedc.chunk.css",
-    "main.js": "/brian-mckenna-react-portfolio/static/js/main.c11238bd.chunk.js",
-    "main.js.map": "/brian-mckenna-react-portfolio/static/js/main.c11238bd.chunk.js.map",
+    "main.js": "/brian-mckenna-react-portfolio/static/js/main.8f735990.chunk.js",
+    "main.js.map": "/brian-mckenna-react-portfolio/static/js/main.8f735990.chunk.js.map",
     "runtime-main.js": "/brian-mckenna-react-portfolio/static/js/runtime-main.3e7f1a80.js",
     "runtime-main.js.map": "/brian-mckenna-react-portfolio/static/js/runtime-main.3e7f1a80.js.map",
     "static/js/2.70a68960.chunk.js": "/brian-mckenna-react-portfolio/static/js/2.70a68960.chunk.js",
@@ -19,12 +19,13 @@
     "static/media/resume.f160bd4e.pdf": "/brian-mckenna-react-portfolio/static/media/resume.f160bd4e.pdf",
     "static/media/scheduler.03ed6b66.png": "/brian-mckenna-react-portfolio/static/media/scheduler.03ed6b66.png",
     "static/media/texteditor.8d08e50e.png": "/brian-mckenna-react-portfolio/static/media/texteditor.8d08e50e.png",
-    "static/media/toughdecisions.adb156ee.png": "/brian-mckenna-react-portfolio/static/media/toughdecisions.adb156ee.png"
+    "static/media/toughdecisions.adb156ee.png": "/brian-mckenna-react-portfolio/static/media/toughdecisions.adb156ee.png",
+    "static/media/twitter.84a72906.webp": "/brian-mckenna-react-portfolio/static/media/twitter.84a72906.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.3e7f1a80.js",
     "static/js/2.70a68960.chunk.js",
     "static/css/main.cdb2cedc.chunk.css",
-    "static/js/main.c11238bd.chunk.js"
+    "static/js/main.8f735990.chunk.js"
   ]
 }
