@@ -1,18 +1,24 @@
-# React Portfolio Assignment
+# My Portfolio
 
-The goal of this assignment was to create a portfolio using React.
+This project is my personal coding portfolio website, build using React. This project was initially built for the purpose of my web design coding bootcamp course, but now serves as a showcase for myself and the other apps I have created.
 
-First, I created a rough skeleton of the pages and components using html, then reworked them using React JSX syntax. 
+## Authors
 
-Then, I worked on the necessary funtionality for message input forms conditional rendering of each section of the portfolio.
+Brian McKenna - https://github.com/brianmckennaman
 
-Next, I added styling to the page by passing CSS variables into the page and component renders as props.
+## Built With
 
-Next, I installed the necessary packages needed to build and run the app, and deployed the app using Github pages.
+* React
+* React Bootstrap
 
-A link to the deployed app can be found here: https://brianmckennaman.github.io/brian-mckenna-react-portfolio/
+## Contributing
 
-A screenshot of the functional app is provided here: 
+If you wish to contribute, please email or message the Author, Brian McKenna
 
+## Screenshot
 
-![Screenshot (31)](https://user-images.githubusercontent.com/107509704/206067231-217737da-ae2d-4b44-a1f5-97025194644f.png)
+![Screenshot (9)](https://user-images.githubusercontent.com/107509704/221958141-1c2efe7b-c016-42b6-853b-ff0b31ab50ce.png)
+
+## Acknowledgements
+
+Thank you to the teaching team of my bootcamp Eric Cole and Gerson Calienes for helping me design this website and for helping me learn to code!
