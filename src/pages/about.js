@@ -11,7 +11,7 @@ return (
     <div style={styles.body}>
         <img src={picture} alt='portfolio image' style={styles.image }></img>
         <div style={styles.container}>
-        <h2 style={styles.textBody}>Hello! My name is Brian McKenna, a junior full-stack developer. Thanks for checking out my portfolio! Here, you can see some of the apps I have developed. I decided to become a developer because I have always had an interest in computers and coding, and wanted to explore the possiblities of what coding can do, especially in a time when technology is so integral to our lives.</h2>
+        <h2 style={styles.textBody}>Hello! My name is Brian McKenna, a junior full-stack developer. Thanks for checking out my portfolio! Here, you can see some of the apps I have developed. I am familiar with languages and technologies consistant with the MERN stack (Mongo, Express, React, Node) as well as other web design languages such as HTML, CSS, and JavaScript. I have created projects in an Agile scrum-style enviornment, and have deployed apps via Github Pages and Heroku. </h2>
         </div>
     </div>
 )

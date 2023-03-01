@@ -5,9 +5,9 @@ function Navbar() {
     // ({ isActive }) => isActive ? { backgroundColor: "#00bac4" } : { backgroundColor: "lightBlue" }
 
     var style = {
-        navbarMain: { backgroundColor: "lightBlue", color: "black", height: "4vw", position: "sticky", marginBottom: "2vw" },
-        listItem: { display: "inline", border: "solid", borderRadius: "6px", marginLeft: "5vw", marginRight: "5vw", fontSize: "3vw", textDecoration: "none", color: "black" },
-        navButtons: { backgroundColor: "lightBlue", width: "22vw", height: "3vw", marginLeft: "1px", marginRight: "1px", border: "solid" }
+        navbarMain: { backgroundColor: "lightBlue", color: "black", height: "5%", position: "sticky", marginBottom: "2vw" },
+        listItem: { display: "inline", marginLeft: "5vw", marginRight: "5vw", fontSize: "3vw", textDecoration: "none", color: "black" },
+        navButtons: { backgroundColor: "lightBlue", width: "22vw", height: "3vw", marginLeft: "1px", marginRight: "1px", border: "solid", textDecoration: "none", color: "blue", borderRadius: "6px", borderWidth: "2px" }
     }
 
     
@@ -16,19 +16,19 @@ function Navbar() {
         <nav style={style.navbarMain}>
             <ul>
                 <li style={style.listItem}>
-                    <NavLink to='/brian-mckenna-react-portfolio' style={({ isActive }) => isActive ? { backgroundColor: "#00bac4" } : { backgroundColor: "lightBlue" } }>About Me
+                    <NavLink to='/brian-mckenna-react-portfolio' style={style.navButtons}>About Me
                     </NavLink>
                 </li>
                 <li style={style.listItem}>
-                    <NavLink to='/apps' style={({ isActive }) => isActive ? { backgroundColor: "#00bac4" } : { backgroundColor: "lightBlue" } }>Apps
+                    <NavLink to='/apps' style={style.navButtons}>Apps
                     </NavLink>
                 </li>
                 <li style={style.listItem}>
-                    <NavLink to='/contact' style={({ isActive }) => isActive ? { backgroundColor: "#00bac4" } : { backgroundColor: "lightBlue" } }>Contact
+                    <NavLink to='/contact' style={style.navButtons}>Contact
                     </NavLink>
                 </li>
                 <li style={style.listItem}>
-                    <NavLink to='/resume' style={({ isActive }) => isActive ? { backgroundColor: "#00bac4" } : { backgroundColor: "lightBlue" } }>Resume
+                    <NavLink to='/resume' style={style.navButtons}>Resume
                     </NavLink>
                 </li>
             </ul>

@@ -9,7 +9,9 @@ function Resume() {
         skillHeader: { fontSize: "5vw", justifyContent: "center"},
         listContainer: { background: "lightBlue", borderRadius: "10px", padding: "1vw" },
         skillList: { fontSize: "2vw" }
+
         // Styling for alternate page design
+        
         // sectionHeader: { fontSize: "4vw", background: "lightBlue", padding: "1vw", borderRadius: "5px"},
         // sectionContent: { fontSize: "3vw" }, 
         // sectionList: { fontSize: "2vw"},
@@ -25,6 +27,7 @@ function Resume() {
                 </h1>
 
                 {/* Styling for alternate design with show/hide button for resume summary */}
+
                 {/* <h2 style={styles.sectionHeader
                 }>Education <button id='displayButton'>Show/Hide</button>
                 <div style={styles.hidden}>
@@ -76,6 +79,7 @@ function Resume() {
                         <li>React</li>
                     </ul>
                 </h2> */}
+
                 <h1 style={styles.listContainer}>Coding skills
                     <ul style={styles.skillList}>
                         <li>HTML</li>
@@ -93,7 +97,9 @@ function Resume() {
         </div>
     )
 }
-// function for show/hide button
+
+// Function for show/hide button
+
 // function displayHide (event) {
     
 // } 
