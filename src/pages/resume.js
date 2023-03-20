@@ -91,6 +91,7 @@ function Resume() {
                         <li>MongoDB</li>
                         <li>React</li>
                         <li>GraphQL</li>
+                        <li>Java</li>
                     </ul>
                 </h1>
             
