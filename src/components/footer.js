@@ -16,7 +16,7 @@ function Footer() {
             <div style={style.linkContainer}>
                 <a href="https://github.com/brianmckennaman"><img style={style.linkImage} src={githubPicture}></img></a>
                 <a href="https://www.linkedin.com/in/brian-mckenna-a17b1b139/"><img style={style.linkImage} src={linkedinPicture}></img></a>
-                <a href='https://twitter.com/overlordhyperion'><img style={style.linkImage} src={twitterPicture}></img></a>
+                <a href='https://twitter.com/overlordhype'><img style={style.linkImage} src={twitterPicture}></img></a>
                 <a href='https://www.twitch.tv/overlordhyperion'><img style={style.linkImage} src={twitchPicture}></img></a>
             </div>
             </h1>
